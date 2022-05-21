@@ -1,7 +1,7 @@
 <template>
   <div class="relative pb-9 bg-slate-100">
     <div
-      class="relative flex items-center mt-14 bg-bottom h-[16rem] bg-[url('/src/assets/catering-2778755_1920.jpg')] bg-cover bg-no-repeat"
+      class="relative flex items-center mt-14 bg-bottom h-[14rem] bg-[url('/src/assets/catering-2778755_1920.jpg')] bg-cover bg-no-repeat"
     >
       <div class="flex opacity-95 w-full mt-[2rem] justify-center px-[1rem]">
         <input
