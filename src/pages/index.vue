@@ -179,11 +179,11 @@ const catagory = ref([
 
 <style>
 .selected_category {
-  @apply font-mono  bg-green-500 hover:text-white  text-black  text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 text-lg cursor-pointer transition-all ease-in-out duration-200;
+  @apply font-mono  bg-green-500 hover:text-white whitespace-normal text-black  text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 text-lg cursor-pointer transition-all ease-in-out duration-200;
 }
 
 .category {
-  @apply text-lg bg-white text-black focus:bg-green-500 text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 cursor-pointer;
+  @apply text-lg bg-white text-black focus:bg-green-500 whitespace-normal text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 cursor-pointer;
 }
 </style>
 
