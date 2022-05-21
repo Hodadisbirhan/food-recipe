@@ -60,7 +60,7 @@ const remove_recipe = (id) => {
     </div>
 
     <div
-      class="sticky bg-[rgb(245,245,245)] top-14 z-20 mb-3 flex flex-col items-center gap-8 h-[8rem]"
+      class=" bg-[rgb(245,245,245)]  z-20 mb-3 flex flex-col items-center pb-3 gap-8 h-[6rem]"
     >
       <h1
         class="relative w-fit break-all font-serif text-center before:content-[''] before:absolute before:left-[20%] before:right-[20%] before:h-[0.3rem] before:-bottom-4 before:bg-green-700 text-3xl"
