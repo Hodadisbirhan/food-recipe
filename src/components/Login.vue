@@ -72,7 +72,7 @@ const submit = handleSubmit(async () => {
     <span class="w-full text-center text-base text-red-900">{{ errorDisplay }}</span>
     <h1 class="font-bold text-3xl text-green-800">Sign in</h1>
 
-    <div class="flex flex-col w-full justify-start items-center">
+    <div class="flex relative flex-col w-full justify-start items-center">
       <Input
         type="email"
         name="email"
@@ -80,11 +80,13 @@ const submit = handleSubmit(async () => {
         unique="LoginEmail"
         placeholder="hodadis@gmail.com"
       />
-      <span class="italic text-sm text-red">{{
+    
+
+       <span class="italic bg-zinc-50 -bottom-1 absolute text-red">{{
         emailError && emailError.toString()
       }}</span>
     </div>
-    <div class="flex flex-col w-full justify-start items-center">
+    <div class="flex relative flex-col w-full justify-start items-center">
       <Input
         type="password"
         name="password"
@@ -92,7 +94,12 @@ const submit = handleSubmit(async () => {
         unique="LoginPassword"
         placeholder="password"
       />
-      <span class="italic text-sm text-red">{{ passError && passError.toString() }}</span>
+     
+
+<span class="italic bg-zinc-50 -bottom-1 absolute text-red">{{
+       passError && passError.toString()
+      }}</span>
+      
     </div>
     <button
       type="submit"
