@@ -81,7 +81,7 @@
 
     <main
       v-if="result"
-      class="grid gap-y-8 px-[2%] sm:px-[8%] gap-x-8 bg-[whitesmoke] xl:grid-cols-4 place-items-center 2xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 grid-cols-1"
+      class="grid gap-y-8 px-[2%] sm:px-[8%] gap-x-8 bg-[whitesmoke] xl:grid-cols-4 place-items-center 2xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-1"
     >
       <Card
         v-for="item in result.search_recipe"
