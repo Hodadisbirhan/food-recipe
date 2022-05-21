@@ -280,9 +280,9 @@ const rating_method = (rates) => {
     <div class="w-full flex flex-col bg-white px-4 pb-4" v-if="result">
       <div>
         <div class="flex relative pb-5 gap-2 md:flex-row flex-col sm:items-start">
-          <div class="flex relative pb-5 gap-2 pt-9 flex-col sm:items-start">
+          <div class="flex relative w-full pb-5 gap-2 pt-9 flex-col sm:items-start">
             <img
-              class="object-cover w-full mr-5 md:w-[23rem] rounded-xl h-auto"
+              class="object-cover  w-full mr-5 md:w-[90%] rounded-xl h-[19rem]"
               :src="showImage"
               alt="photos"
             />
