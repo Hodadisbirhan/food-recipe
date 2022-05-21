@@ -29,7 +29,7 @@ watchEffect(() => {});
           ></path>
         </svg>
       </div>
- <span class="text-sm font-sans  text-black">rates</span>
+ <span class="text-xl font-bold  text-black">rates</span>
 
     </div>
     <span class="text-base font-bold">Total:{{ numberofpeople }}</span>
