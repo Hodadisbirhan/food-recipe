@@ -218,7 +218,7 @@ const upload = async () => {
           base64img: images.value[x].split(",")[1],
         });
         if (x == 0) imageLink.value = uploading.data.url;
-        else imageLink.value = imageLink.value + "," + uploading.data.url;
+        else imageLink.value = imageLink.value + "$#@!%" + uploading.data.url;
 
         if (featureIndex == x) {
           temporaryImage.value = uploading.data.url;
@@ -240,13 +240,13 @@ const submit = handleSubmit(
     let upload_ingredeint_text = "";
     ingradientInput.value.forEach((element, index) => {
       if (index === 0) upload_ingredeint_text = `${element.value}`;
-      else upload_ingredeint_text = `${upload_ingredeint_text} , ${element.value}`;
+      else upload_ingredeint_text = `${upload_ingredeint_text} $#@!% ${element.value}`;
     });
 
     let upload_step_text = "";
     steps.value.forEach((element, index) => {
       if (index === 0) upload_step_text = `${element.value}`;
-      else upload_step_text = `${upload_step_text},${element.value}`;
+      else upload_step_text = `${upload_step_text} $#@!% ${element.value}`;
     });
     mutate({
       cataid: Number(catagory.value),
