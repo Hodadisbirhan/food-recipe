@@ -77,7 +77,7 @@
       v-if="result && result.search_recipe.length < 1"
       class="flex relative w-full h-full justify-center items-center"
     >
-      <img class="w-full h-full" src="../assets/noResult.png" alt="" />
+      <span class="text-3xl">NO PRODUCT FOUND</span>
     </div>
 
     <main
