@@ -323,7 +323,7 @@ const rating_method = (rates) => {
               >
             </div>
 
-            <p class="indent-6 text-base break-all">
+            <p class="indent-6 break-all">
               {{ description }}
             </p>
           </div>
