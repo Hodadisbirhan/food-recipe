@@ -63,7 +63,7 @@ const remove_recipe = (id) => {
       class=" bg-[rgb(245,245,245)]  z-20 mb-3 flex flex-col items-center pb-3 gap-8 h-[6rem]"
     >
       <h1
-        class="relative w-fit break-all font-serif text-center before:content-[''] before:absolute before:left-[20%] before:right-[20%] before:h-[0.3rem] before:-bottom-4 before:bg-green-700 text-3xl"
+        class="relative w-fit break-all font-serif text-center before:content-[''] before:absolute before:left-[20%] before:right-[20%] before:h-[0.3rem] before:-bottom-4 before:bg-green-700 text-xl"
       >
         HeLLO {{ store.state.name }}
       </h1>
