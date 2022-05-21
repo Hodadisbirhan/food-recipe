@@ -169,7 +169,7 @@ const { value: step_input, errorMessage: errorStep } = useField("stepValidate");
 const { value: imagevalue, errorMessage: errMage } = useField("imageValidate");
 const { value: prep, errorMessage: errorPrep } = useField("prep");
 
-const catagory = ref("2");
+const catagory = ref("249");
 
 let prep_Time = ref("min");
 const removeIngerdeint = (inde) => {
