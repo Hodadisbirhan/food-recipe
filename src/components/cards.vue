@@ -19,7 +19,7 @@
         <span class="text-xl px-2 break-all font-semibold">{{
           props.name.length > 10 ? props.name.substring(0, 10) + "..." : props.name
         }}</span>
-        <p class="px-2 text-base truncate w-full text-ellipsis text-slate-400 font-sans">
+        <p class="px-2 text-base truncate w-full text-ellipsis text-slate-800 font-sans">
           {{
             props.description.length >= 30
               ? props.description.substring(0, 30) + "..."
