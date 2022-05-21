@@ -338,7 +338,7 @@ const rating_method = (rates) => {
             result.getrecipebyid.getDirection.length > 0 &&
             result.getrecipebyid.getDirection[0].steps.length > 0
           "
-          class="rounded-lg border-solid border-2 md:w-[60%] h-fit"
+          class="rounded-lg border-solid drop-shadow md:w-[60%] h-fit"
         >
           <h1
             class="font-serif bg-slate-100 relative rounded-t-lg text-center text-3xl text-[#7d9e3c] before:content-['']"
@@ -356,7 +356,7 @@ const rating_method = (rates) => {
         </div>
         <div
           v-if="result.getrecipebyid.getIngeredent.length > 0"
-          class="rounded-lg md:w-[35%] border-2 h-fit border-solid mx-1"
+          class="rounded-lg drop-shadow md:w-[35%]  h-fit border-solid mx-1"
         >
           <h1
             class="font-serif rounded-t-lg bg-slate-100 relative text-center text-3xl text-[#7d9e3c]"
