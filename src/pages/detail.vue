@@ -302,7 +302,7 @@ const rating_method = (rates) => {
           </div>
           <div class="flex pt-10 flex-col gap-2">
             <div class="flex flex-col gap-2 pl-4 md:pl-1 flex-wrap">
-              <h1 class="font-mono break-all text-3xl text-green-700">
+              <h1 class="font-bold break-all text-3xl text-green-700">
                 {{ result.getrecipebyid?.name }}
               </h1>
               <Icon_with :like="like" :comment="comment" :timer="timer" />
@@ -318,7 +318,7 @@ const rating_method = (rates) => {
               >
                 {{ result.getrecipebyid?.createdBy?.toUpperCase().charAt(0) }}
               </div>
-              <span class="text-black inline-block"
+              <span class="text-black font-medium inline-block"
                 >By {{ result?.getrecipebyid?.createdBy }}</span
               >
             </div>
