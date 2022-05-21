@@ -282,7 +282,7 @@ const rating_method = (rates) => {
         <div class="flex relative pb-5 gap-1 md:flex-row flex-col sm:items-start">
           <div class="flex relative w-full pb-5 gap-2 pt-9 flex-col sm:items-start">
             <img
-              class="object-cover  w-full mr-5 md:w-[90%] rounded-xl h-[19rem]"
+              class="object-cover  w-full md:mr-1 mr-5 md:w-[90%] rounded-xl h-[19rem]"
               :src="showImage"
               alt="photos"
             />
