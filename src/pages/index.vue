@@ -155,7 +155,6 @@ function change_catagory(id) {
 const searchby = ref("");
 const search = ref("");
 const selectedCategoryId = ref(0);
-//it should be undo
 const catagory = ref([
   { title: "All", id: 0 },
   { title: "Launch", id: 249 },
