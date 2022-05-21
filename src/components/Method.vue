@@ -14,6 +14,6 @@ const props = defineProps({
     >
       #{{ Number(props.list) + 1 }}
     </span>
-    <p class="text-base font-normal break-all text-slate-800">{{ props.description }}</p>
+    <p class="text-base font-normal break-all ">{{ props.description }}</p>
   </li>
 </template>
