@@ -272,8 +272,8 @@ const rating_method = (rates) => {
 };
 </script>
 <template>
-  <div class="px-4 pt-13">
-    <div v-if="loading" class="flex justify-center w-full h-full items-center">
+  <div class="px-4 pt-14">
+    <div v-if="loading" class="flex justify-center  w-full h-screen items-center">
       <img class="w-20 h-20" src="../assets/loading.svg" alt="" />
     </div>
 
