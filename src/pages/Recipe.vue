@@ -107,6 +107,19 @@ function addStep() {
     stepwarning.value = "Please Enter the step";
   }
 }
+// it should be choised
+ const choise_catagory =ref([ { title: "Launch", id: 249 },
+  { title: "BreakFast", id: 250 },
+  { title: "Dinner", id: 251 },
+  { title: "Desert", id: 252 },
+  { title: "Appitizer", id: 253 },
+  { title: "SideDish", id: 254 },
+  { title: "Quick and easy", id: 255 },
+  { title: "Holiday", id: 256 },
+  { title: "Soup", id: 257 },
+  { title: "vegeterain", id: 258 },
+  { title: "Salad", id: 259 },]);
+  // it should be choised
 const images = ref([]);
 const thumbImage = ref("/src/assets/ground.jpeg");
 const imagename = ref();
@@ -156,7 +169,7 @@ const { value: step_input, errorMessage: errorStep } = useField("stepValidate");
 const { value: imagevalue, errorMessage: errMage } = useField("imageValidate");
 const { value: prep, errorMessage: errorPrep } = useField("prep");
 
-const catagory = ref("3");
+const catagory = ref("2");
 
 let prep_Time = ref("min");
 const removeIngerdeint = (inde) => {
@@ -311,10 +324,8 @@ const submit = handleSubmit(
                 v-model="catagory"
                 class="w-full text-ellipsis font-mono outline-none border-green-800 px-2 border-[1px] text-xl h-14 rounded-xl"
               >
-                <option value="3">Dinner</option>
-                <option value="93">Lunch</option>
-                <option value="4">BreakFast</option>
-                <option value="94">Food</option>
+                <option v-for="cata in choise_catagory" :key="cata.id" :value="cata.id">{{cata.title}}</option>
+                
               </select>
             </div>
           </div>

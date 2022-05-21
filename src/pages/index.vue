@@ -154,13 +154,26 @@ function change_catagory(id) {
 const searchby = ref("");
 const search = ref("");
 const selectedCategoryId = ref(0);
+//it should be undo
 const catagory = ref([
   { title: "All", id: 0 },
-  { title: "Launch", id: 93 },
-  { title: "BreakFast", id: 4 },
-  { title: "Dinner", id: 3 },
-  { title: "HolyDay", id: 94 },
+  { title: "Launch", id: 249 },
+  { title: "BreakFast", id: 250 },
+  { title: "Dinner", id: 251 },
+  { title: "Desert", id: 252 },
+  { title: "Appitizer", id: 253 },
+  { title: "SideDish", id: 254 },
+  { title: "Quick and easy", id: 255 },
+  { title: "Holiday", id: 256 },
+  { title: "Soup", id: 257 },
+  { title: "vegeterain", id: 258 },
+  { title: "Salad", id: 259 },
 ]);
+
+
+
+
+
 </script>
 
 <style>
