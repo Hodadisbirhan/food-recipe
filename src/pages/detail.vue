@@ -301,7 +301,7 @@ const rating_method = (rates) => {
             </div>
           </div>
           <div class="flex pt-10 flex-col gap-2">
-            <div class="flex flex-col gap-2 pl-4 flex-wrap">
+            <div class="flex flex-col gap-2 pl-4 md:pl-1 flex-wrap">
               <h1 class="font-mono break-all text-3xl text-green-700">
                 {{ result.getrecipebyid?.name }}
               </h1>
