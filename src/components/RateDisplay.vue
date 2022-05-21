@@ -11,7 +11,7 @@ watchEffect(() => {});
 
 <template>
   <div class="flex flex-col drop-shadow-xl gap-1">
-    <span class="text-2xl font-bold text-yellow-700">Rated</span>
+   
     <div class="flex flex-row gap-1">
       <div class="" v-for="(i, index) in 5" :key="index" title="Rating">
         <svg
@@ -29,7 +29,9 @@ watchEffect(() => {});
           ></path>
         </svg>
       </div>
+ <span class="text-sm font-sans  text-black">rates</span>
+
     </div>
-    <span class="text-base font-mono">TOTAL:{{ numberofpeople }}</span>
+    <span class="text-base font-bold">Total:{{ numberofpeople }}</span>
   </div>
 </template>
