@@ -183,7 +183,7 @@ const catagory = ref([
 }
 
 .category {
-  @apply text-lg bg-white text-black focus:bg-green-500 whitespace-normal text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 cursor-pointer;
+  @apply text-lg bg-white text-black focus:bg-green-500 whitespace-nowrap text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 cursor-pointer;
 }
 </style>
 
