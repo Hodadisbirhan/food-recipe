@@ -341,7 +341,7 @@ const rating_method = (rates) => {
           class="rounded-lg border-solid drop-shadow md:w-[60%] h-fit"
         >
           <h1
-            class="font-serif  relative rounded-t-lg text-center text-3xl text-[#7d9e3c] before:content-['']"
+            class="font-serif  relative rounded-t-lg  text-3xl text-[#7d9e3c] before:content-['']"
           >
         STEPS
           </h1>
@@ -359,7 +359,7 @@ const rating_method = (rates) => {
           class="rounded-lg drop-shadow md:w-[35%]  h-fit border-solid mx-1"
         >
           <h1
-            class="font-serif rounded-t-lg  relative text-center text-3xl text-[#7d9e3c]"
+            class="font-serif rounded-t-lg  relative  text-3xl text-[#7d9e3c]"
           >
             Ingredient
           </h1>
