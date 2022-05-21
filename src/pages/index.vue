@@ -53,6 +53,7 @@
         >
           <ForwardArrow class="w-6 h-6 text-green-500" />
         </button>
+      
 
         <button
           v-for="item in catagory"
