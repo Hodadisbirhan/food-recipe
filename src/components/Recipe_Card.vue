@@ -8,7 +8,7 @@
       >View Detail</span
     >
 
-    <div class="w-[40%]"><img :src="props.src" class="w-full flex-1 object-center  object-cover" alt="Food" /></div>
+    <div class="w-[40%] h-48"><img :src="props.src" class="w-full h-48 flex-1 object-center  object-cover" alt="Food" /></div>
 
     <div class="flex flex-col h-48 w-2/3 flex-1 bg-white pb-2 gap-3 items-start">
       <div class="flex w-full flex-col gap-2">
