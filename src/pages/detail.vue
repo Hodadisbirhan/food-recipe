@@ -343,7 +343,7 @@ const rating_method = (rates) => {
           <h1
             class="font-serif bg-slate-100 relative rounded-t-lg text-center text-3xl text-[#7d9e3c] before:content-['']"
           >
-            Directions
+        STEPS
           </h1>
           <ul class="list-none flex-grow flex flex-col gap-2">
             <method
