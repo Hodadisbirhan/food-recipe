@@ -179,7 +179,7 @@ const catagory = ref([
 
 <style>
 .selected_category {
-  @apply font-mono  bg-green-500 hover:text-white whitespace-normal text-black  text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 text-lg cursor-pointer transition-all ease-in-out duration-200;
+  @apply font-mono  bg-green-500 hover:text-white whitespace-nowrap text-black  text-center border-solid border-2 border-green-500 h-fit align-middle inline-block rounded-xl px-3 text-lg cursor-pointer transition-all ease-in-out duration-200;
 }
 
 .category {
