@@ -214,7 +214,7 @@ watchEffect(() => {
 });
 const hasText = ref(null);
 const put_comment = () => {
-  if (hasText && hasText.value) {
+  if (hasText && (hasText.value+"").trim() !="") {
     if (
       useState.state.id != "" &&
       useState.state.id != null &&
