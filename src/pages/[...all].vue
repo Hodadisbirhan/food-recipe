@@ -13,7 +13,7 @@ const router = useRouter();
 const home=()=>{
 
 
-router.replace("/index");
+router.push("/");
 
 
 }
