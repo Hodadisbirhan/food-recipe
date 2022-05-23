@@ -207,6 +207,12 @@ function editIngredient(index) {
 
 const imageLink = ref("");
 const temporaryImage = ref();
+const clearAll=()=>{
+ images.value = [];
+    ingradientInput.value = [];
+    steps.value = [];
+    resetForm();
+}
 
 const upload = async () => {
   try {
@@ -534,7 +540,7 @@ const submit = handleSubmit(
               </button>
               <button
                 type="button"
-                @click="resetForm()"
+                @click="clearAll"
                 class="w-fit px-6 ring-0 sm:w-36 capitalize hover:bg-green-600 rounded-md h-12 border-2 border-green-600"
               >
                 cancel
