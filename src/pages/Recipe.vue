@@ -100,7 +100,7 @@ function addIngredient() {
   }
 }
 function addStep() {
-  if (step_input.value != "" && step_input.value != "" && step_input.value != undefined) {
+  if (step_input.value != "" && (step_input.value+"").trim() != "" && step_input.value != undefined) {
     steps.value.push({ value: step_input.value, id: Date.now() });
     step_input.value = "";
   } else {
