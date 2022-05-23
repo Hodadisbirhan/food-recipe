@@ -89,7 +89,7 @@ const ingradientInput = ref([]);
 const stepwarning = ref();
 
 function addIngredient() {
-  if (ingradient.value != "" && ingradient.value != undefined) {
+  if (ingradient.value != "" && ingradient.value != undefined&&(ingradient.value+"").trim() != "") {
     ingradientInput.value.push({
       value: ingradient.value,
       id: Date.now(),
