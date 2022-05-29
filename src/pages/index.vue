@@ -1,5 +1,5 @@
 <template>
-  <div class="relative pb-9 bg-slate-100">
+  <div class="relative pb-14 bg-slate-100">
     <div
       class="relative flex items-center mt-14 bg-bottom h-[14rem] bg-[url('/src/assets/catering-2778755_1920.jpg')] bg-cover bg-no-repeat"
     >
