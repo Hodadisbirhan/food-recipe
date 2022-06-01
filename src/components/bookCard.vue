@@ -93,7 +93,7 @@
           </svg>
           <span class="text-sm">{{ numberofcomment }}</span>
         </div>
-        <div class="flex text-sm">
+        <div class="flex gap-2 text-sm">
           <svg
             class="w-5 h-5 fill-slate-300"
             focusable="false"
@@ -108,6 +108,7 @@
             ></path>
             <path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path>
           </svg>
+          <span class="text-sm text-slate-600">{{duration}}</span>
         </div>
       </div>
       <div class="flex w-full justify-end pr-4 gap-1 text-sm">
