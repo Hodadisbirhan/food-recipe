@@ -14,7 +14,7 @@ const router = createRouter({
 router.beforeEach((to,from,next)=>{
 
 
-  if((to.path.match(/\/bookMarks/)|| to.path.match(/\/YourRecipe/i) || to.path.match(/\/recipe/i)) && !store.state.name){
+  if((to.path.match(/\/bookMarks/i)|| to.path.match(/\/YourRecipe/i) || to.path.match(/\/recipe/i)) && !store.state.name){
     next("/authentication")
   }else{
     next()
