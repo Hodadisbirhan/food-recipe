@@ -22,7 +22,7 @@ import { DefaultApolloClient } from "@vue/apollo-composable";
 import { setContext } from "@apollo/client/link/context";
 
 const httpLink = createHttpLink({
-  uri: https://foodrecipeapp.hasura.app/v1/graphql",
+  uri: "https://foodrecipeapp.hasura.app/v1/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
